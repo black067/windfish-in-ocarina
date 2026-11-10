@@ -1,0 +1,7 @@
+# 统一用 LF，避免 Windows 上 CRLF 换来换去
+* text=auto eol=lf
+
+# 二进制资源
+*.mid binary
+*.wav binary
+*.png binary

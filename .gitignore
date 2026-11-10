@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────────────────────
+# 脚本产物：全部由 src/build.py、src/switch2.py 重新生成
+#   python src/build.py
+#   python src/switch2.py
+# 所以不纳入版本库（含 mid / wav / png / txt）
+# ─────────────────────────────────────────────────────────────
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志 / 临时文件
+*.log
+*.tmp
+~$*
